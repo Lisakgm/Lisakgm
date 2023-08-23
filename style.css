@@ -24,16 +24,18 @@ border: 23px solid #fd4fb8;
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(247, 155, 216);
     flex: 1;
     margin: 0;
+    text-decoration: underline;
 }
 #nav-ul {
     list-style-image: none;
 }
 .nav-li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 10px; 
+    list-style-image: linear-gradient(to left bottom, red, blue)
 }
 a {
     text-decoration: none;
@@ -62,8 +64,9 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(22, 179, 35) ridge;
     padding: 8px;
+    list-style-image: linear linear-gradient(to left bottom, red, blue);
 }
 h2, h3 {
     margin: 0px;
