@@ -44,13 +44,16 @@ a {
 main {
     background: rgb(10, 166, 26);
     display: flex;
+    border-radius:60px 60px 60px 60px;
 }
 .sidebar {
     margin-right: 25px;
     padding: 10px;
 }
 .sidebar-img {
-    width: 200px;
+    width: 180px;
+    border-radius: 150%;
+    border: 12px solid rgb(192, 67, 192);
 }
 .content {
     flex: 1;
