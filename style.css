@@ -35,7 +35,8 @@ h1 {
 .nav-li {
     display: inline-block;
     padding: 0 10px; 
-    list-style-image: linear-gradient(to left bottom, red, blue)
+    list-style-image: linear-gradient(to left bottom, red, blue);
+    border-radius: 35px;
 }
 a {
     text-decoration: none;
