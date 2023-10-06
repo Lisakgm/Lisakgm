@@ -76,13 +76,14 @@
 			*/
 			function update() {
 				moveBoxTo(positionX)
-				positionX = positionX + 10;
-				if (positionX > 200){
+				positionX = positionX + speed;
+				if (positionX > boardWidth){
 					speed = -speed
 				}
 				else if (positionX < 0){
-					positionX = -20
+					speed = -speed
 				}
+				
 				
 
 			};
