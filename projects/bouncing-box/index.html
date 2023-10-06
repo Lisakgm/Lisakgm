@@ -78,7 +78,10 @@
 				moveBoxTo(positionX)
 				positionX = positionX + 10;
 				if (positionX > 200){
-					speed
+					speed = -speed
+				}
+				else if (positionX < 0){
+					positionX = -20
 				}
 				
 
@@ -92,12 +95,11 @@
 			function handleBoxClick() {
 				positionX = 0;
 				
+				speed = speed + 20;
+				
 				points = points + 1;
 
 				changeBoxText(points);
-
-				speed = speed + 3;
-
 
 			};
 		})();
