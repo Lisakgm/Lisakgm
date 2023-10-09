@@ -112,11 +112,16 @@ box.css('background-color', colorStr);
 			function handleBoxClick() {
 				positionX = 0;
 				
-				speed = speed + 5;
-				
 				points = points + 1;
 
 				changeBoxText(points);
+				if (speed === +speed){
+					speed = speed + 5;
+				}
+
+				else if (speed === -speed){
+					speed = speed - 5;
+				}
 
 			};
 		})();
