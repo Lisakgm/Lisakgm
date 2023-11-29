@@ -37,7 +37,7 @@ circles.push(circle);
         // TODO 3 / 7 : Call the drawCircle() function 
 
         var loopsCompleted = 0;
-        for (var loopsCompleted = 0; loopsCompleted < 100; loopsCompleted++){
+        for (var loopsCompleted = 0; loopsCompleted < 2500; loopsCompleted++){
             drawCircle()
         }
 
